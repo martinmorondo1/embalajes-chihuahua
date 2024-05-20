@@ -10032,8 +10032,8 @@ button {
 
 @media (max-width: 480px) {
   .owl-carousel .item {
-      height: 155px;
-      width: 155px;
+      height: 220px;
+      width: 220px;
       padding: 5px;
   }
 
@@ -10051,8 +10051,8 @@ button {
   }
 
   .game-section .item.active {
-    height: 165px;
-      width: 175px;
+    height: 240px;
+    width: 240px;
     box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
   }
