@@ -5,12 +5,6 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
- @charset "utf-8";
-
-/******* Fonts Import Start **********/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-/********* Fonts Face CSS End **********/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10000,43 +9994,6 @@ button {
     width: 250px;
   }
 
-  /* -------- Landing page ------- */
-  .game-section {
-    padding: 30px 15px 20px;
-  }
-  .game-section .item {
-    margin: 0 10px 40px;
-    width: 200px;
-    height: 280px;
-  }
-  .game-section .item.active {
-    width: 270px;
-    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
-  }
-  .game-section .item-desc {
-    padding: 0 14px 5px;
-    transform: translateY(calc(100% - 42px));
-    -webkit-transform: translateY(calc(100% - 42px));
-  }
-}
-
-/* @media (max-width: 767px) {
-  body {
-    font-size: 14px;
-  }
-  h2 {
-    margin-bottom: 20px;
-  }
-  h3 {
-    margin: 0 0 8px;
-    font-size: 19px;
-    line-height: 24px;
-  }
-  .line-title {
-    width: 250px;
-  }
-
   .game-section {
     padding: 30px 15px 20px;
   }
@@ -10060,20 +10017,20 @@ button {
     width: 180px;
 }
 
-  .owl-carousel .item .item-desc {
-      padding: 15px;
-  }
+.owl-carousel .item .item-desc {
+    padding: 15px;
+}
 
-  .owl-carousel .item h4 {
-      font-size: 1rem;
-  }
+.owl-carousel .item h4 {
+    font-size: 1rem;
+}
 
-  .owl-carousel .item p {
-      font-size: 0.9rem;
-  }
-  } */
+.owl-carousel .item p {
+    font-size: 0.9rem;
+}
+}
 
-/* @media (max-width: 480px) {
+@media (max-width: 480px) {
   .owl-carousel .item {
       height: 155px;
       width: 155px;
@@ -10099,7 +10056,7 @@ button {
     box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
   }
-} */
+}
 
 
 .container-fluid.bg-dark {
