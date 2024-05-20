@@ -10091,4 +10091,38 @@ button {
 
 
 
+.custom-nav {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.custom-nav .arrow {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 50%;
+  line-height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-nav .arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.custom-nav .arrow.prev {
+  margin-right: 20px;
+}
+
+.custom-nav .arrow.next {
+  margin-left: 20px;
+}
+
+
+
+
 
