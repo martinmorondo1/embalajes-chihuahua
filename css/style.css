@@ -10016,74 +10016,46 @@ button {
 
 @media (max-width: 768px) {
   .owl-carousel .item {
-      height: 200px;
-      width: 180px;
+    height: 200px;
+    width: 180px;
   }
 
   .owl-carousel .item .item-desc {
-      padding: 15px;
+    padding: 15px;
   }
 
   .owl-carousel .item h4 {
-      font-size: 1rem;
+    font-size: 1rem;
   }
 
   .owl-carousel .item p {
-      font-size: 0.9rem;
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
   .owl-carousel .item {
-      height: 155px;
-      width: 155px;
-      padding: 5px;
+    height: 155px;
+    width: 155px;
+    padding: 5px;
   }
 
   .owl-carousel .item .item-desc {
-      padding: 10px;
+    padding: 10px;
   }
 
   .owl-carousel .item h4 {
-      font-size: 0.5rem;
-      font-weight: 600;
+    font-size: 0.5rem;
+    font-weight: 600;
   }
 
   .owl-carousel .item p {
-      font-size: 0.8rem;
+    font-size: 0.8rem;
   }
 
   .game-section .item.active {
     height: 165px;
-      width: 175px;
-    box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
-  }
-}
-
-@media (max-width: 767px) {
-  .owl-carousel .item {
-      height: 155px;
-      width: 155px;
-      padding: 5px;
-  }
-
-  .owl-carousel .item .item-desc {
-      padding: 10px;
-  }
-
-  .owl-carousel .item h4 {
-      font-size: 0.5rem;
-      font-weight: 600;
-  }
-
-  .owl-carousel .item p {
-      font-size: 0.8rem;
-  }
-
-  .game-section .item.active {
-    height: 165px;
-      width: 175px;
+    width: 175px;
     box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
   }
@@ -10107,15 +10079,14 @@ button {
   font-size: 14px;
 }
 
-
 @media (max-width: 768px) {
   .container-fluid.bg-dark .d-none.d-lg-inline {
-      display: inline;
+    display: inline;
   }
-  
+
   .container-fluid.bg-dark .text-center.text-md-right {
-      text-align: center;
-      margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
   }
 }
 
